@@ -1,0 +1,27 @@
+<html>
+	<head>
+	<title>{{ page.title }}</title>
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+				 {% for post in site.posts %}
+				    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+				 {% endfor %}
+    		</ul>
+		</nav>
+		<div class="container">
+			
+			{{ content }}
+			
+		</div>
+		<footer>
+    		<ul>
+        		<li>(c) 2016</li>
+        		<li>rene</li>
+			</ul>
+		</footer>
+	</body>
+</html>
