@@ -10,12 +10,21 @@
 	    </div>
 	    <div class ="main">
 			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-					 {% for post in site.posts %}
-					    <li><span>{{ post.date | date_to_string }}</span>&nbsp;<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-					 {% endfor %}
-	    		</ul>
+			    <ul>
+			    <li><a href="/">Home</a></li>
+				{% for post in site.posts %}
+				  {% assign currentdate = post.date | date: "%Y" %}
+				  {% if currentdate != date %}
+				    {% unless forloop.first %}</ul>{% endunless %}
+				    <li>
+				    <span id="y{{post.date | date: "%Y"}}">{{ currentdate }}</span>
+				    <ul>
+				    {% assign date = currentdate %}
+				  {% endif %}
+				    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+				  {% if forloop.last %}</ul></li>{% endif %}
+				{% endfor %}
+				</ul>
 			</nav>
 			<div class="container">
 				<div class="content">

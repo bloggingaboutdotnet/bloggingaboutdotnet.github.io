@@ -1,5 +1,8 @@
 body { margin:0px; padding:0px;}
 nav { width: 25%; float:left; }
+nav li:nth-child(1) { margin-bottom: 12px;}
+nav ul {padding-left: 10px;}
+nav ul > li > ul {padding-left: 30px;}
 nav li { color: #581845; font-size: small; font-weight: bold; }
 nav a {font-style: small; text-decoration: none; color:#581845; }
 nav a:hover { text-decoration: underline; }
