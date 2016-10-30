@@ -19,8 +19,8 @@ body { font-family: arial, sans-serif; }
 
 .main {width:100%; background-color: #DAF7A6; }
 
-.container { width: 74%; height: 100%; position: relative; float: right; background-color: white; border-left: solid #FF5733  1px; padding:5px;}
-.content {padding: 10px;}
+.container { width: 74%; position: relative; float: right; background-color: white; border-left: solid #FF5733  1px; padding:5px;}
+.content {padding: 10px; background-color: white; }
 
 footer {  text-align:center; height: 3em; font-size: smaller; font-weight: light; background-color: #FF5733; clear:both; color:#581845;}
 footer ul {display: inline-block;}
