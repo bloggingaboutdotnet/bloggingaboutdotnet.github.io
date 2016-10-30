@@ -1,0 +1,11 @@
+---
+layout: post
+title: "GotDotNet Identity theft"
+date: 2006-06-11T12:43:00Z
+modtime: 2006-06-11T12:43:00Z
+pubdate: 2006-06-11T12:43:00Z
+originalurl: "http://bloggingabout.net/blogs/rene/default.aspx/blogs/rene/archive/2006/06/11/12434.aspx"
+---
+
+
+<p>Sometimes funny / unexplainable things happen. Like today when I briefly connected to <a href="http://www.gotdotnet.com">GotDotnet</a>. The list of ' My projects' was a lot bigger then last time I logged on. Some where still familiar but some I never heard of. The first thing to spring to my mind was a nice new feature: GotDotnet project relations. As many projects have dependencies on each other (like the Enterprise Library and Service Factory for example) if you join one project you are automatically joined to the related projects. Cool!</p><p>Examining the list some projects didn't make any sense to me. And some projects I joined were not on the list any more. Now that made me suspicious. Some thing must be wrong. I clicked 'My Profile' and there it was:</p><p><img src="/UserFiles/Rene Schrieken/Image/gdn_identity.gif" alt="Identity from gotdotnet" height="434" width="628" /></p><p>I'm not Sankar74, and I do not life in Singapore.... I removed my cookies and temporary internet files, closed IE and tried again. Same problem. On the Messageboard another guy had obviously the same problem and posted in name of Sankar74...</p><p>I experimented a little bit and found out that if you hover over the Sign In button on the top of the homepage of GotDotnet the login URL for LiveID/.NET passport is shown in the statusbar. When the id query parameter of that url is 1 you are probably going to be logged on as your second-self. <img src="/FCKEditor/editor/images/smiley/msn/regular_smile.gif" alt="" /></p><p><img src="/UserFiles/Rene Schrieken/Image/gdn_login.gif" alt="" height="27" width="330" /></p><p>If you are planning on conducting some nasty programming against world peace, Microsoft or .Net be aware that in time totally unexpected someone might find out what you are up to when he or she logs on to GotDotNet.</p><p>Hopefully the Micorosoft GotDotNet team gets this glitch solved quickly...</p><p>[UPDATE]: The GotDotnet Team fixed the problem on monday and assured that this is not a case of Identity Theft...</p>

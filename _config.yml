@@ -1,2 +1,4 @@
 name: Blogging About .Net / René
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title/

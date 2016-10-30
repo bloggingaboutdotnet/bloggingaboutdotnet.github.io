@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Teched Pre-Conf: Windows Internals"
+date: 2005-07-05T06:54:00Z
+modtime: 2005-07-05T06:54:00Z
+pubdate: 2005-07-05T06:54:00Z
+originalurl: "http://bloggingabout.net/blogs/rene/default.aspx/blogs/rene/archive/2005/07/05/7637.aspx"
+---
+
+
+<p>Ok, it is tech-ed again.</p><p>The pre-conference day kept me occupied with the tools that saved me (as a developer) lot of times. David Solomon and Mark Russinovich took the crowd into the depth of the tools that should be installed on any pc by default. Process Explorer is the what taskmanager should have been. Mark and david were very clear: Not once they said that task manager showed information correct, they even pointed out that the all information you get from taskmanager is actually misleading. I was already convinced that Process Explorer was ok but the stack-trace option, the advanced setting and the possibility to load symbol files were new to me. And it is great to dig in to found out which tool is actually eating up your processor.</p><p>Next was FileMon. This great tool shows you the files a process is reading/writing/opening/closing and shows you the errors (Access denied, File not found etc). Very handy if you are wondering why your program doesn't work on the production server.</p><p>RegMon is almost the same as FileMon except that is showing all the details of the api calls thjat involved the registry. Same story here.</p><p>The part about memory was very interesting. Alone for this topic I'm going to buy the book Windows Internals because basic knowledge of how windows is allocating memory is just to important. And don't tell me you are using .net so memory is taken care of.... memory still needs to be allocated by your program. It is either direct by calling malloc or indirect by BigObject bo = new BigObject();</p><p>Last part of the session was crash dump analysis. I don't think I will ever go into this dark-room of the IT. However running the tool called verifier (from the windows sdk or driver sdk) will give you insight about buggy drivers and according to microsoft 70% of the crashes is because of buggy third-party drivers. The nexst time I receive a new image on my desktop/laptop or buy a new pc I will run the verifier and be very suspicious I any errors are reported based on that tool.</p>

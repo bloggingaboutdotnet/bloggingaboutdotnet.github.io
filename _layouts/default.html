@@ -4,24 +4,31 @@
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-				 {% for post in site.posts %}
-				    <li><span>{{ post.date | date_to_string }}</span>&nbsp;<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-				 {% endfor %}
-    		</ul>
-		</nav>
-		<div class="container">
-			
-			{{ content }}
-			
+	    <div class="header">
+	    	<span><img src="/images/logo.png" /></span>
+	    	<h1>Blogging About .Net and other stuff</h1>
+	    </div>
+	    <div class ="main">
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+					 {% for post in site.posts %}
+					    <li><span>{{ post.date | date_to_string }}</span>&nbsp;<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+					 {% endfor %}
+	    		</ul>
+			</nav>
+			<div class="container">
+				<div class="content">
+					{{ content }}
+				</div>	
+			</div>
+			<footer>
+	    		<ul>
+	        		<li>(c) 2016</li>
+	        		<li>&nbsp;|&nbsp;</li>
+	        		<li>rene</li>
+				</ul>
+			</footer>
 		</div>
-		<footer>
-    		<ul>
-        		<li>(c) 2016</li>
-        		<li>rene</li>
-			</ul>
-		</footer>
 	</body>
 </html>

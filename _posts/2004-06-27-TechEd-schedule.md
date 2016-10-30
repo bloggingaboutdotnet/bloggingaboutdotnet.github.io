@@ -1,0 +1,13 @@
+---
+layout: post
+title: "TechEd schedule"
+date: 2004-06-27T09:55:00Z
+modtime: 2004-06-27T09:55:00Z
+pubdate: 2004-06-27T09:55:00Z
+originalurl: "http://bloggingabout.net/blogs/rene/default.aspx/blogs/rene/archive/2004/06/27/1064.aspx"
+---
+
+
+<p>I don't know how I did it but I managed to schedule my teched sessions. After my first initial selection I ended up with 4 double sessions on Tuesday and thursday.</p><p>Last friday we went to Harry Potter's prisoner of Azkaban. Hermoine demonstrates time travelling so she can attend ALL classes. I hope I run into the same functionality some day.</p><p>Unfortenately I'm going to miss <a href="http://www.thinktecture.com/staff/ingo/weblog/archives/001401.html" target="_blank" title="Ingo Sessions">Ingo Rammer</a> on monday evening (it's quitte impossible to travel back in time from Amsterdam to Purmerend by 30 minutes) as I'm attending the tech-ed pre conference.</p><p>I reshuffeld and dopped some session and here is what I come up with:</p><p>Mon:</p><p>Guidance about Patterns and Practices</p><p>Tue:</p><ul><li>Keynote;</li><li>Metropolis Envisioning the Service-Oriented Enterprise;</li><li>Service-Oriented Business Architecture: A Conceptual Model</li><li>Choosing a Hosting Model - Dealing with Threads, AppDomains and Processes</li><li>Service-Orientation and the Windows/.NET Developer</li></ul><p>Wed:</p><ul><li>Realizing Services-Oriented Architecture (but attend the session with Gerke Geurts (CHT047)!)</li><li>New Developments in Microsoft Solutions Framework</li><li>Visual Studio 2005 Team System - Part 1</li><li>Building Applications with the Patterns &amp; Practices Application Blocks Tools for Architecture: Designing for Deployment</li><li>Bridging the Gap Between IT and Application Developers</li><li>Dutch Party</li></ul><p>Thu:</p><ul><li>Prescriptive Guidance for Building with Web Services, WSE, .NET Remoting, System.EnterpriseServices and MSMQ</li><li>Metropolis: Using Interchangeabiliy Patterns in the Enterprise
+<br />
+Threading Pleasures and Pitfalls</li><li>Enterprise Information Integration and Entity Aggregation in Service-Oriented Architecture (I hope Maarten has adapted his presentation skills)</li><li>Best Practices for Dealing With State at Multiple Layers Within Your .NET Applications Microsoft</li><li>Tech Ed 2004 Europe Party</li></ul><p>Fri:</p><ul><li>.NET Architecture Clinic</li><li>Understanding the Grey Area Between Service and Object-Oriented Design</li><li>The Nerd, The Suit and The Fortune Teller</li><li>.NET Compact Framework Performance and Best Practices</li><li>Building Extensible Applications using Attributes, Reflection and Code Generation</li></ul>
